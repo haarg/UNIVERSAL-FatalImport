@@ -1,5 +1,6 @@
 package UNIVERSAL::FatalImport;
 our $VERSION = '0.001000';
+$VERSION =~ tr/_//d;
 
 my $def_import;
 my $def_unimport;
@@ -122,6 +123,22 @@ version check rather than throwing an error about an unhandled import. If this
 option is specified, this will always throw an error rather than performing a
 version check.
 
-=back
+=head1 AUTHOR
+
+haarg - Graham Knop (cpan:HAARG) <haarg@haarg.org>
+
+=head1 CONTRIBUTORS
+
+None so far.
+
+=head1 COPYRIGHT
+
+Copyright (c) 2023 the UNIVERSAL::FatalImport L</AUTHOR> and L</CONTRIBUTORS>
+as listed above.
+
+=head1 LICENSE
+
+This library is free software and may be distributed under the same terms
+as perl itself. See L<https://dev.perl.org/licenses/>.
 
 =cut
